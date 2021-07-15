@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF3047</color>
+    <color name="red_dark">#C12537</color>
+    <color name="red_light">#FF96A2</color>
+
+    <color name="yellow_0">#FBC02D</color>
+    <color name="yellow_1">#ffe600</color>
+    <color name="yellow_2">#b2a100</color>
+    <color name="yellow_3">#ffeb33</color>
+
+    <color name="blue_4">#293e6a</color>
+    <color name="blue_5">#3B5998</color>
+    <color name="blue_8">#306eff</color>
+    <color name="blue_10">#E8F3FF</color>
+
+    <color name="green">#0dbe59</color>
+
+    <color name="gray_0">#A5A8B4</color>
+    <color name="gray_1">#414961</color>
+    <color name="gray_2">#3F405B</color>
+    <color name="gray_3">#9F9F9F</color>
+    <color name="gray_6">#DADADA</color>
+    <color name="gray_7">#E5E5E5</color>
+    <color name="gray_9">#F7F7F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_5_percent">#0DFFFFFF</color>
+    <color name="white_10_percent">#1AFFFFFF</color>
+    <color name="white_30_percent">#4DFFFFFF</color>
+    <color name="white_50_percent">#80FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_5_percent">#0D000000</color>
+    <color name="black_10_percent">#1A000000</color>
+    <color name="black_30_percent">#4D000000</color>
+    <color name="black_50_percent">#80000000</color>
+    <color name="eggplant">#15121d</color>
+    <color name="eggplant_2">#0F0D15</color>
+    <color name="eggplant_3">#211d2e</color>
+
+</resources>

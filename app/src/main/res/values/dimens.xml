@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Corner radius -->
+    <dimen name="radius_size_xxs">2dp</dimen>
+    <dimen name="radius_size_xs">4dp</dimen>
+    <dimen name="radius_size_s">8dp</dimen>
+    <dimen name="radius_size_m">12dp</dimen>
+    <dimen name="radius_size_mxx">14dp</dimen>
+    <dimen name="radius_size_l">16dp</dimen>
+    <dimen name="radius_size_xl">20dp</dimen>
+    <dimen name="radius_size_xxl">24dp</dimen>
+    <dimen name="radius_size_xxxl">28dp</dimen>
+    <dimen name="radius_size_xxxxl">32dp</dimen>
+    <dimen name="radius_size_max">1000dp</dimen>
+
+</resources>
