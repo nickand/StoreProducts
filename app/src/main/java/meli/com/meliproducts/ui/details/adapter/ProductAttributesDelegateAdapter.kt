@@ -34,7 +34,7 @@ class ProductAttributesDelegateAdapter : ViewTypeDelegateAdapter {
         private val value = binding.textView2
 
         fun bind(item: AttributesItemView) {
-            label.text = "${item.name}:"
+            label.text = item.name
             value.text = item.value
         }
     }

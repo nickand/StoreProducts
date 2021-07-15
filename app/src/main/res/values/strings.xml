@@ -3,7 +3,7 @@
 
     !-- SearchProductsFragment -->
     <string name="action_search">Buscar</string>
-    <string name="search_hint">Buscar productos...</string>
+    <string name="search_hint">Buscar productos…</string>
 
     <!-- Product Detail -->
     <string name="product_detail_title">Producto</string>
