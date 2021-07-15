@@ -49,9 +49,10 @@ class ProductListFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
         productListAdapter = ProductListAdapter {
-            //val action = ProductListFragmentDirections.actionMainFragmentToDetailFragment(it.id)
-            //navController.navigate(action)
+            val action = ProductListFragmentDirections.actionMainFragmentToDetailFragment(it.id)
+            navController.navigate(action)
         }
+
         //Toolbar setup
         binding.toolbar.inflateMenu(R.menu.main_fragment)
         binding.toolbar.setTitle(R.string.app_name)
@@ -60,7 +61,7 @@ class ProductListFragment : BaseFragment() {
         searchView.queryHint = requireContext().getString(R.string.search_hint)
         searchView.setOnQueryTextListener(getOnQueryTextListener())
 
-        //recyclerview
+        //RecyclerView setup
         binding.productsList.layoutManager = LinearLayoutManager(context)
         binding.productsList.adapter = productListAdapter
         binding.productsList.addItemDecoration(
@@ -133,7 +134,7 @@ class ProductListFragment : BaseFragment() {
 
             // Animate the content view to 100% opacity, and clear any animation
             // listener set on the view.
-            binding.animationView.animate().alpha(1f).duration = 800
+            binding.animationView.animate().alpha(1f).duration = 600
             binding.animationView.setAnimation("json/search_empty.json")
             binding.animationView.repeatCount = Animation.INFINITE
             binding.animationView.playAnimation()
@@ -141,12 +142,12 @@ class ProductListFragment : BaseFragment() {
             // Animate the loading view to 0% opacity. After the animation ends,
             // set its visibility to GONE as an optimization step (it won't
             // participate in layout passes, etc.)
+            binding.emptyMessage.visibility = View.GONE
             binding.animationView.animate()
                 .alpha(0f)
-                .setDuration(800)
+                .setDuration(600)
                 .setListener(object : AnimatorListenerAdapter() {
                     override fun onAnimationEnd(animation: Animator) {
-                        binding.emptyMessage.visibility = View.GONE
                         binding.animationView.visibility = View.GONE
                     }
                 })

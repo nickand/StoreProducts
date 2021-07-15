@@ -12,4 +12,5 @@
     <string name="error_fetch_failed">Hubo un problema, intenta de nuevo.</string>
     <string name="open_mercadolibre">Ver en \nMercadolibre.com</string>
     <string name="no_serach">Hey! No se ha iniciado una búsqueda,\nintenta realizar una para ver resultados aquí.</string>
+    <string name="product_info_title">Información del producto</string>
 </resources>

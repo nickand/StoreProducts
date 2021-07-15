@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.jvquiroz.mercadolibreproducts.presentation.fragment.BaseFragment
@@ -27,7 +28,7 @@ class ProductDetailsFragment : BaseFragment() {
     private var _binding: FragmentProductDetailsBinding? = null
     private val binding get() = _binding!!
 
-    //private val args: ProductDetailsFragmentArgs by navArgs()
+    private val args: ProductDetailsFragmentArgs by navArgs()
     private val viewModel: ProductViewModel by hiltNavGraphViewModels(
         R.id.nav_graph
     )
@@ -94,6 +95,6 @@ class ProductDetailsFragment : BaseFragment() {
     }
 
     private fun fetchDetails() {
-        //viewModel.getDetails(args.productId)
+        viewModel.getDetails(args.productId)
     }
 }

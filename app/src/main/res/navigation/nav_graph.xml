@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name=""
+        android:name="meli.com.meliproducts.ui.details.ProductDetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_product_details" >
         <argument
