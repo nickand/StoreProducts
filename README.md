@@ -1,5 +1,9 @@
 # StoreProducts
-![video_2021-07-16_12-07-19 (online-video-cutter com)(2)](https://user-images.githubusercontent.com/4821464/125985152-7987f5a4-6c16-4abb-b7aa-42bdb74eda95.gif)
+<img src="https://user-images.githubusercontent.com/4821464/125985152-7987f5a4-6c16-4abb-b7aa-42bdb74eda95.gif" width="200" height="420">
+
+| Screen 1 | Screen 2 | Screen 3 | Screen 4 |
+ |:----:|:----:|:----:|:----:|
+| ![photo_2021-07-16_14-08-09](https://user-images.githubusercontent.com/4821464/125997114-6984d736-7878-4494-a5ce-bbdd587bf697.jpg) | ![photo_2021-07-16_14-08-12](https://user-images.githubusercontent.com/4821464/125997115-0e61c4ce-38a6-4a41-b6e9-85378bddfe44.jpg) | ![photo_2021-07-16_14-08-14](https://user-images.githubusercontent.com/4821464/125997116-7e5918a7-1b17-49b4-bf1e-484d2bfdc951.jpg) | ![photo_2021-07-16_14-08-17](https://user-images.githubusercontent.com/4821464/125997117-e675677c-1245-4287-9ac1-b5ce3f7b49ba.jpg)
 
 ## Getting Started
 This project uses the Gradle system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.
