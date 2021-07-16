@@ -21,6 +21,7 @@ A collection of samples using the [Architecture Components](https://developer.an
 - ![Android Support Design](https://developer.android.com/topic/libraries/support-library/packages)
 - ![Coil](https://github.com/coil-kt/coil)
 - ![Lottie](https://github.com/airbnb/lottie-android)
+- ![Dagger Hilt](https://dagger.dev/hilt/)
 
 ## Resources
 - ![Lottie files](https://lottiefiles.com/)
