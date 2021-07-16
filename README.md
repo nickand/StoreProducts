@@ -9,6 +9,7 @@ This project uses the Gradle system. To build this project, use the gradlew buil
 the data comes from Create an app that lists all produtcs and their details from [MercadoLibre](https://api.mercadolibre.com/sites/MLA/search)
 end points :
 * [GET search](https://api.mercadolibre.com/sites/MCO/search?q=ryuk) 
+* [GET product detail] (https://api.mercadolibre.com/items/MCO531873032)
 
 A collection of samples using the [Architecture Components](https://developer.android.com/arch):
 
