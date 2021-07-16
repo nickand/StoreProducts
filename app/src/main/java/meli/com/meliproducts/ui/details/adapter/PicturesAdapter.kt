@@ -41,8 +41,7 @@ class PicturesAdapter : RecyclerView.Adapter<PicturesAdapter.PictureViewHolder>(
         ImageUtils.load(
             imageView = holder.image,
             placeholder = R.drawable.ic_image,
-            url = urls[position],
-            shimmerLayout = holder.container
+            url = urls[position]
         )
     }
 }

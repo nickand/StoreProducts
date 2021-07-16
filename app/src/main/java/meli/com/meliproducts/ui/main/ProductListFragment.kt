@@ -14,7 +14,6 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.jvquiroz.mercadolibreproducts.presentation.fragment.BaseFragment
 import meli.com.meliproducts.R
 import meli.com.meliproducts.data.model.Product
 import meli.com.meliproducts.data.model.Resource

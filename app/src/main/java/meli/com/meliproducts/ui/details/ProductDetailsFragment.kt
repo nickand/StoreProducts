@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.jvquiroz.mercadolibreproducts.presentation.fragment.BaseFragment
+import meli.com.meliproducts.ui.main.BaseFragment
 import meli.com.meliproducts.R
 import meli.com.meliproducts.data.model.Product
 import meli.com.meliproducts.data.model.Resource

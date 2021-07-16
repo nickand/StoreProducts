@@ -1,4 +1,4 @@
-package com.jvquiroz.mercadolibreproducts.presentation.fragment
+package meli.com.meliproducts.ui.main
 
 import android.view.View
 import androidx.fragment.app.Fragment

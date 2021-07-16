@@ -6,15 +6,12 @@ import coil.load
 import coil.request.ImageRequest
 import coil.request.ImageResult
 import coil.size.Scale
-import com.facebook.shimmer.ShimmerFrameLayout
 import meli.com.meliproducts.R
 
 class ImageUtils {
     companion object {
         fun load(imageView: ImageView, url:String,
-                 @DrawableRes placeholder: Int,
-                 shimmerLayout: ShimmerFrameLayout? = null) {
-            shimmerLayout?.showShimmer(true)
+                 @DrawableRes placeholder: Int) {
             imageView.load(url) {
                 crossfade(true)
                 placeholder(placeholder)
@@ -26,7 +23,6 @@ class ImageUtils {
                         metadata: ImageResult.Metadata
                     ) {
                         super.onSuccess(request, metadata)
-                        shimmerLayout?.hideShimmer()
                     }
 
                     override fun onError(
@@ -35,7 +31,6 @@ class ImageUtils {
                     ) {
                         super.onError(request, throwable)
                         imageView.setImageResource(R.drawable.ic_broken_document)
-                        shimmerLayout?.hideShimmer()
                     }
                 })
             }

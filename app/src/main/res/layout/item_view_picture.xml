@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/picture_container"
     android:layout_width="match_parent"
     android:paddingBottom="12dp"
@@ -17,7 +17,7 @@
         android:id="@+id/page_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom"
+        app:layout_constraintTop_toBottomOf="@+id/picture_image"
         tools:text="1/3"
         android:textAlignment="center" />
-</com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
