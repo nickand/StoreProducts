@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/product_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="@dimen/spacing_xxxxxxxxxxxxl"
+        android:layout_height="@dimen/spacing_xxxxxxxxxxxxl"
         android:layout_gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,10 +19,10 @@
 
     <TextView
         android:id="@+id/product_name_label"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/no_spacing"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:textSize="16sp"
+        android:layout_marginStart="@dimen/spacing_xs"
+        android:textSize="@dimen/font_size_16"
         app:layout_constraintBottom_toTopOf="@id/product_price_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/product_image"
@@ -32,10 +32,10 @@
 
     <TextView
         android:id="@+id/product_price_label"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/no_spacing"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:textSize="20sp"
+        android:layout_marginStart="@dimen/spacing_xs"
+        android:textSize="@dimen/font_size_20"
         android:textColor="@color/eggplant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/product_image"

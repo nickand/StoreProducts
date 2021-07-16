@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Spacing for margin and padding -->
+    <dimen name="no_spacing">0dp</dimen>
+    <dimen name="spacing_xxxxxs">1dp</dimen>
+    <dimen name="spacing_xxxxs">2dp</dimen>
+    <dimen name="spacing_xxxs">4dp</dimen>
+    <dimen name="spacing_xxs">8dp</dimen>
+    <dimen name="spacing_xs">12dp</dimen>
+    <dimen name="spacing_s">16dp</dimen>
+    <dimen name="spacing_xm">18dp</dimen>
+    <dimen name="spacing_m">20dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">28dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xxxl">36dp</dimen>
+    <dimen name="spacing_xxxxl">40dp</dimen>
+    <dimen name="spacing_xxxxxl">44dp</dimen>
+    <dimen name="spacing_xxxxxxl">48dp</dimen>
+    <dimen name="spacing_xxxxxxxl">52dp</dimen>
+    <dimen name="spacing_xxxxxxxxl">56dp</dimen>
+    <dimen name="spacing_xxxxxxxxxl">64dp</dimen>
+    <dimen name="spacing_xxxxxxxxxxl">80dp</dimen>
+    <dimen name="spacing_xxxxxxxxxxxl">90dp</dimen>
+    <dimen name="spacing_xxxxxxxxxxxxl">100dp</dimen>
+
     <!-- Corner radius -->
     <dimen name="radius_size_xxs">2dp</dimen>
     <dimen name="radius_size_xs">4dp</dimen>
@@ -13,5 +37,43 @@
     <dimen name="radius_size_xxxl">28dp</dimen>
     <dimen name="radius_size_xxxxl">32dp</dimen>
     <dimen name="radius_size_max">1000dp</dimen>
+
+    <!-- Splash background -->
+    <dimen name="bg_splash_width">150dp</dimen>
+    <dimen name="bg_splash_height">140dp</dimen>
+
+    <!-- Items elevation -->
+    <dimen name="elevations_normal">4dp</dimen>
+    <dimen name="elevations_default">10dp</dimen>
+    <dimen name="elevations_share">4dp</dimen>
+
+    <!-- Search empty sizes -->
+    <dimen name="search_logo_width">200dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_21">21sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_27">27sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_34">34sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_44">44sp</dimen>
+    <dimen name="font_size_48">48sp</dimen>
+    <dimen name="font_size_50">50sp</dimen>
+
+    <!-- Product attributes sizes -->
+    <dimen name="product_attribute_margin_start">34dp</dimen>
+    <dimen name="product_attribute_margin_bottom">16dp</dimen>
 
 </resources>

@@ -10,7 +10,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:background="@color/colorPrimary"
-        android:elevation="10dp"
+        android:elevation="@dimen/elevations_default"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
