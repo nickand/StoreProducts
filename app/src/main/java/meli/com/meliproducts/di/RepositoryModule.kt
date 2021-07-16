@@ -31,17 +31,5 @@ object RepositoryModule {
             cacheMapper = cacheMapper
         )
     }
-
-    @Singleton
-    @Provides
-    fun provideDomainMapper(): ProductDTOMapper {
-        return ProductDTOMapper()
-    }
-
-    @Singleton
-    @Provides
-    fun provideCacheMapper(): ProductCacheMapper {
-        return ProductCacheMapper()
-    }
 }
 

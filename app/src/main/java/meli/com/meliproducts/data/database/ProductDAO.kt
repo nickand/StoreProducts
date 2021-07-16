@@ -12,17 +12,17 @@ import androidx.room.Update
 @Dao
 interface ProductDAO {
     @Insert(onConflict = REPLACE)
-    fun save(vararg user: ProductCache)
+    suspend fun save(vararg user: ProductCache)
 
     @Update
-    fun update(product: ProductCache)
+    suspend fun update(product: ProductCache)
 
     @Query("DELETE FROM ${DbConstants.TABLE_PRODUCTS}")
-    fun deleteAll()
+    suspend fun deleteAll()
 
     @Query("SELECT * FROM ${DbConstants.TABLE_PRODUCTS}")
-    fun load(): List<ProductCache>
+    suspend fun load(): List<ProductCache>
 
     @Query("SELECT * FROM ${DbConstants.TABLE_PRODUCTS} WHERE id=:id ")
-    fun loadResult(id: String): ProductCache
+    suspend fun loadResult(id: String): ProductCache
 }

@@ -2,11 +2,12 @@ package meli.com.meliproducts.data.model
 
 import android.text.TextUtils
 import meli.com.meliproducts.util.ModelMapper
+import javax.inject.Inject
 
 /**
  * Transform @see ProductDTO to @see Product and the other way around.
  */
-class ProductDTOMapper : ModelMapper<ProductDTO, Product> {
+class ProductDTOMapper @Inject constructor(): ModelMapper<ProductDTO, Product> {
 
     override fun mapToModel(model: ProductDTO): Product {
         return Product(

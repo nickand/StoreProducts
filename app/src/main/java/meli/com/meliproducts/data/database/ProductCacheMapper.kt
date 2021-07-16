@@ -6,11 +6,13 @@ import meli.com.meliproducts.data.model.Attribute
 import meli.com.meliproducts.data.model.Product
 import meli.com.meliproducts.util.ModelMapper
 import java.text.SimpleDateFormat
+import javax.inject.Inject
 
 /**
  * Transform @see ProductCache to @see Product and the other way around.
  */
-class ProductCacheMapper : ModelMapper<ProductCache, Product> {
+
+class ProductCacheMapper @Inject constructor(): ModelMapper<ProductCache, Product> {
 
     private val dateFormat = SimpleDateFormat("dd-MM-yyyy HH:mm:ss")
 
